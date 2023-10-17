@@ -1,1 +1,2 @@
 # portfolio-website
+This is Personal portfolio website. A personal portfolio website, created with HTML, CSS, and JavaScript, is a dynamic platform that showcases an individual's skills, projects, and achievements, providing a visually appealing and interactive way to present one's professional identity to the world.
