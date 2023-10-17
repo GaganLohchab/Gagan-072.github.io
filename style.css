@@ -342,6 +342,7 @@ span {
 .btn-box.btns {
     display: inline-block;
     width: 15rem;
+    margin-top: 2.4rem;
 }
 
 .btn-box.btns a::before {
