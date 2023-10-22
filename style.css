@@ -86,7 +86,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('./images/home.jpg') no-repeat;
+    background: url('https://github.com/GaganLohchab/Gagan-072.github.io/blob/1bdce3c98f42b7b759121d64f29f8024f1e22eeb/images/home.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
