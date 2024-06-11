@@ -553,7 +553,7 @@ span {
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
     width: 75%;
 }
-
+/* 
 .contact {
     min-height: auto;
     padding-bottom: 7rem;
@@ -632,7 +632,91 @@ span {
 
 .contact form .btn-box.btns .btn {
     cursor: pointer;
+} */
+.projects {
+    min-height: auto;
+    padding-bottom: 7rem;
 }
+
+.projects h2 {
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.projects .projects-container {
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects .project-card {
+    position: relative;
+    width: 32%;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    background: var(--main-bg-color);
+    border: .2rem solid var(--main-color);
+    border-radius: .6rem;
+    transition: transform 0.3s;
+}
+
+.projects .project-card:hover {
+    transform: scale(1.05);
+}
+
+.projects .project-title {
+    font-size: 1.8rem;
+    color: var(--text-color);
+}
+
+.projects .project-description {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin: 1rem 0;
+}
+
+.projects .project-link {
+    font-size: 1.4rem;
+    color: var(--main-color);
+    text-decoration: none;
+    border: .2rem solid var(--main-color);
+    padding: 0.5rem 1rem;
+    margin-bottom: .5rem;
+    border-radius: .6rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.projects .project-link:hover {
+    background: var(--main-color);
+    color: var(--main-bg-color);
+}
+
+.animate.scroll {
+    /* Maintain existing styles for the animation */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    animation: animate 5s linear infinite;
+    animation-delay: calc(var(--i) * 0.5s);
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
 
 .footer {
     display: flex;
